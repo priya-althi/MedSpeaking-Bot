@@ -1,0 +1,506 @@
+ID,Symptoms/Question,Disease Prediction,Recommended Medicines,Advice,clean_question,symptom_tags
+1,muscle cramps and weakness,Electrolyte Imbalance,"Electrolyte solution, Potassium supplements","Stay hydrated, maintain balanced diet.",muscle cramps and weakness,cramps
+2,cold hands and feet,Raynaud's Disease,"Nifedipine, Losartan","Keep warm, reduce stress.",cold hands and feet,cold
+3,back pain and stiffness,Herniated Disc,"Ibuprofen, Muscle relaxants","Maintain good posture, apply cold/heat.",back pain and stiffness,"back,pain"
+4,headache and nausea,Migraine,"Sumatriptan, Naproxen","Avoid triggers, rest in a dark room.",headache and nausea,headache
+5,persistent cough with mucus,Bronchitis,"Azithromycin, Cough suppressants","Drink fluids, avoid smoke.",persistent cough with mucus,cough
+6,joint pain and swelling,Rheumatoid Arthritis,"Methotrexate, Prednisone","Exercise gently, manage stress.",joint pain and swelling,"joint,pain,swelling"
+7,swollen glands in neck,Lymphadenopathy,"Amoxicillin, Analgesics","Monitor swelling, take antibiotics if needed.",swollen glands in neck,neck
+8,night sweats and weight loss,Tuberculosis,"Isoniazid, Rifampin","Take full antibiotic course, avoid contact.",night sweats and weight loss,weight
+9,diarrhea and stomach cramps,Gastroenteritis,"Loperamide, Oral Rehydration","Stay hydrated, eat bland food.",diarrhea and stomach cramps,"cramps,diarrhea,stomach"
+10,tiredness and frequent urination,Type 2 Diabetes,"Metformin, Glipizide","Exercise regularly, control sugar intake.",tiredness and frequent urination,
+11,sensitivity to light and headaches,Meningitis,"Ceftriaxone, Dexamethasone",Seek emergency care immediately.,sensitivity to light and headaches,
+12,dry mouth and excessive thirst,Dehydration,"ORS, IV Fluids","Drink more fluids, avoid excessive heat.",dry mouth and excessive thirst,mouth
+13,blurred vision and eye pain,Glaucoma,"Latanoprost, Timolol","Use eye drops regularly, avoid strain.",blurred vision and eye pain,"eye,pain,vision"
+14,sore throat and mild fever,Pharyngitis,"Paracetamol, Lozenges","Drink warm fluids, rest well.",sore throat and mild fever,"fever,throat"
+15,abdominal pain and bloating,Acid Reflux,"Omeprazole, Ranitidine","Avoid spicy food, elevate head while sleeping.",abdominal pain and bloating,pain
+16,chest pain and dizziness,Heart Disease,"Aspirin, Nitroglycerin","Avoid stress, follow heart-healthy diet.",chest pain and dizziness,"chest,pain"
+17,itchy skin and rash,Eczema,"Hydrocortisone, Moisturizers","Use moisturizers, avoid allergens.",itchy skin and rash,"rash,skin"
+18,shortness of breath and cough,Asthma,"Salbutamol, Fluticasone","Avoid allergens, use inhaler as prescribed.",shortness of breath and cough,"breath,cough"
+19,frequent nosebleeds,Hypertension,"Lisinopril, Amlodipine","Reduce salt intake, exercise daily.",frequent nosebleeds,
+20,difficulty sleeping,Insomnia,"Melatonin, Zolpidem","Maintain sleep schedule, avoid caffeine.",difficulty sleeping,
+21,fever and chills,Viral Fever,Paracetamol,Take rest and drink plenty of fluids,fever and chills,fever
+22,runny nose and sneezing,Common Cold,Cetirizine,Avoid cold drinks and rest well,runny nose and sneezing,nose
+23,sore throat and cough,Throat Infection,"Paracetamol, Lozenges",Gargle with warm salt water,sore throat and cough,"cough,throat"
+24,headache and eye strain,Eye Strain,Paracetamol,Reduce screen time and rest eyes,headache and eye strain,"eye,headache"
+25,stomach pain after eating,Indigestion,Antacids,Eat small meals and avoid spicy food,stomach pain after eating,"pain,stomach"
+26,vomiting and nausea,Food Poisoning,Ondansetron,Drink ORS and avoid solid food,vomiting and nausea,
+27,body pains and tiredness,Viral Infection,Paracetamol,Take rest and fluids,body pains and tiredness,
+28,cough and chest tightness,Chest Infection,Cough Syrup,Avoid cold air and smoke,cough and chest tightness,"chest,cough"
+29,itchy eyes and sneezing,Allergic Rhinitis,Cetirizine,Avoid dust and pollen,itchy eyes and sneezing,
+30,burning while passing urine,Urinary Tract Infection,Nitrofurantoin,Drink more water,burning while passing urine,"burning,urine"
+31,constipation and hard stools,Constipation,Isabgol,Eat fiber rich foods,constipation and hard stools,
+32,loose motions and weakness,Diarrhea,"ORS, Zinc",Stay hydrated,loose motions and weakness,
+33,back pain after sitting long,Muscle Strain,Pain Relievers,Maintain proper posture,back pain after sitting long,"back,pain"
+34,neck pain and stiffness,Cervical Spondylosis,Pain Relievers,Do neck exercises,neck pain and stiffness,"neck,pain"
+35,acne and oily skin,Acne,Benzoyl Peroxide,Keep face clean,acne and oily skin,"acne,skin"
+36,dandruff and itchy scalp,Dandruff,Ketoconazole Shampoo,Wash hair regularly,dandruff and itchy scalp,
+37,tooth pain and swelling,Tooth Infection,Pain Killers,Visit dentist,tooth pain and swelling,"pain,swelling,tooth"
+38,ear pain and itching,Ear Infection,Antibiotic Drops,Keep ear dry,ear pain and itching,"ear,itching,pain"
+39,breathlessness on walking,Anemia,Iron Supplements,Eat iron rich foods,breathlessness on walking,
+40,fatigue and pale skin,Iron Deficiency Anemia,Iron Tablets,Improve diet,fatigue and pale skin,"fatigue,skin"
+41,frequent headaches,Tension Headache,Paracetamol,Manage stress,frequent headaches,
+42,stomach bloating and gas,Gas Trouble,Simethicone,Avoid carbonated drinks,stomach bloating and gas,"gas,stomach"
+43,knee pain while climbing stairs,Knee Arthritis,Pain Relievers,Do strengthening exercises,knee pain while climbing stairs,"knee,pain"
+44,hand joint stiffness morning,Arthritis,Pain Relievers,Do hand exercises,hand joint stiffness morning,joint
+45,dryness and cracking lips,Dehydration,Multivitamins,Drink enough water,dryness and cracking lips,
+46,eye redness and itching,Conjunctivitis,Eye Drops,Avoid touching eyes,eye redness and itching,"eye,itching"
+47,frequent burping and acidity,Acid Reflux,Omeprazole,Avoid oily food,frequent burping and acidity,
+48,sleep problems and stress,Stress,Mild Sedatives,Practice relaxation,sleep problems and stress,"sleep,stress"
+49,low mood and tiredness,Mild Depression,Multivitamins,Exercise regularly,low mood and tiredness,
+50,weight gain and tiredness,Hypothyroidism,Levothyroxine,Regular thyroid check,weight gain and tiredness,weight
+51,excessive sweating,Hyperhidrosis,Antiperspirants,Maintain hygiene,excessive sweating,
+52,hair fall and weakness,Nutritional Deficiency,Multivitamins,Eat healthy food,hair fall and weakness,
+53,numbness in legs,Nerve Compression,Vitamin B Complex,Avoid long sitting,numbness in legs,
+54,frequent infections,Low Immunity,Multivitamins,Improve nutrition,frequent infections,
+55,dry cough at night,Allergy,Antihistamines,Avoid allergens,dry cough at night,cough
+56,wheezing and chest tightness,Mild Asthma,Inhaler,Avoid triggers,wheezing and chest tightness,chest
+57,swelling in feet,Fluid Retention,Diuretics,Reduce salt intake,swelling in feet,swelling
+58,burning sensation in chest,Heartburn,Antacids,Avoid late night meals,burning sensation in chest,"burning,chest"
+59,itchy private area,Fungal Infection,Antifungal Cream,Keep area dry,itchy private area,
+60,white patches in mouth,Oral Thrush,Antifungal Gel,Maintain oral hygiene,white patches in mouth,mouth
+61,frequent urination at night,Prostate Enlargement,Alpha Blockers,Reduce fluids at night,frequent urination at night,
+62,dizziness on standing,Low Blood Pressure,ORS,Stand slowly,dizziness on standing,
+63,ringing in ears,Tinnitus,Vitamin Supplements,Avoid loud noise,ringing in ears,
+64,redness and pain in joints,Gout,Pain Relievers,Avoid high protein food,redness and pain in joints,pain
+65,stomach cramps during periods,Menstrual Cramps,Pain Relievers,Use hot water bag,stomach cramps during periods,"cramps,stomach"
+66,mood swings and fatigue,Hormonal Imbalance,Multivitamins,Get proper sleep,mood swings and fatigue,fatigue
+67,dry skin and itching,Dry Skin,Moisturizers,Use mild soaps,dry skin and itching,"itching,skin"
+68,frequent yawning and tired,Sleep Deprivation,No Medicine,Improve sleep habits,frequent yawning and tired,tired
+69,cough after eating,Acid Reflux,Antacids,Avoid lying after meals,cough after eating,cough
+70,chest discomfort after stress,Anxiety,Mild Sedatives,Practice breathing exercises,chest discomfort after stress,"chest,stress"
+71,feeling dizzy and weak,General Weakness,Multivitamins,Take rest and balanced diet,feeling dizzy and weak,weak
+72,loss of appetite and nausea,Stomach Infection,Antiemetic,Eat light foods and stay hydrated,loss of appetite and nausea,
+73,pain while swallowing,Throat Inflammation,Lozenges,Drink warm fluids,pain while swallowing,pain
+74,frequent hiccups,Indigestion,Antacids,Avoid spicy food,frequent hiccups,
+75,stomach burning in morning,Acid Reflux,Omeprazole,Avoid skipping meals,stomach burning in morning,"burning,stomach"
+76,shaking hands and nervousness,Anxiety,Anti anxiety meds,Practice deep breathing,shaking hands and nervousness,
+77,sudden weight loss,Metabolic Disorder,Medical Evaluation,Consult doctor for tests,sudden weight loss,weight
+78,leg cramps at night,Electrolyte Deficiency,Magnesium Supplements,Stretch before sleep,leg cramps at night,cramps
+79,difficulty concentrating,Tiredness,Multivitamins,Get enough sleep,difficulty concentrating,
+80,frequent sore throat,Recurrent Infection,Vitamin C,Boost immunity,frequent sore throat,throat
+81,swollen ankles in evening,Fluid Retention,Diuretics,Elevate legs,swollen ankles in evening,
+82,tingling in fingers,Vitamin Deficiency,Vitamin B12,Improve nutrition,tingling in fingers,
+83,eye watering in sunlight,Light Sensitivity,Sunglasses,Avoid bright light,eye watering in sunlight,eye
+84,pain in heel while walking,Plantar Fasciitis,Pain Relievers,Use soft footwear,pain in heel while walking,pain
+85,lower back pain while bending,Muscle Strain,Pain Relievers,Avoid heavy lifting,lower back pain while bending,"back,pain"
+86,dry cough with throat itch,Allergy,Antihistamines,Avoid dust exposure,dry cough with throat itch,"cough,itch,throat"
+87,excessive sleepiness daytime,Sleep Disorder,Medical Evaluation,Maintain sleep routine,excessive sleepiness daytime,
+88,frequent mouth ulcers,Vitamin Deficiency,Multivitamins,Avoid spicy foods,frequent mouth ulcers,mouth
+89,heavy sweating at night,Night Sweats,Medical Evaluation,Consult doctor if persists,heavy sweating at night,
+90,painful bowel movements,Anal Fissure,Ointments,Increase fiber intake,painful bowel movements,
+91,frequent stomach noises,Gas Trouble,Simethicone,Avoid carbonated drinks,frequent stomach noises,stomach
+92,stiff neck after sleeping wrong,Muscle Stiffness,Pain Relievers,Apply warm compress,stiff neck after sleeping wrong,neck
+93,itching between toes,Fungal Infection,Antifungal Cream,Keep feet dry,itching between toes,itching
+94,red watery eyes,Eye Allergy,Eye Drops,Avoid rubbing eyes,red watery eyes,red
+95,feeling cold all the time,Hypothyroidism,Thyroid Medication,Check thyroid levels,feeling cold all the time,cold
+96,slow healing wounds,Diabetes Complication,Blood Sugar Control,Monitor glucose regularly,slow healing wounds,
+97,burning feet at night,Nerve Problem,Vitamin B Complex,Consult doctor,burning feet at night,burning
+98,difficulty breathing when lying,Heart or Lung Issue,Medical Evaluation,Seek medical attention,difficulty breathing when lying,
+99,chest heaviness after meals,Acid Reflux,Antacids,Eat small meals,chest heaviness after meals,chest
+100,frequent yawning and breathlessness,Anemia,Iron Supplements,Improve iron intake,frequent yawning and breathlessness,
+101,blurred vision after screen use,Digital Eye Strain,Eye Drops,Follow 20-20-20 rule,blurred vision after screen use,vision
+102,irregular menstrual cycles,Hormonal Imbalance,Hormone Therapy,Consult gynecologist,irregular menstrual cycles,
+103,pain in wrist after typing,Repetitive Strain Injury,Pain Relievers,Take frequent breaks,pain in wrist after typing,pain
+104,frequent throat clearing,Post Nasal Drip,Antihistamines,Drink warm fluids,frequent throat clearing,throat
+105,loss of smell and taste,Sinus Infection,Decongestants,Steam inhalation,loss of smell and taste,
+106,white discharge and itching,Vaginal Infection,Antifungal Tablets,Maintain hygiene,white discharge and itching,itching
+107,frequent urination with burning,Urinary Infection,Antibiotics,Drink plenty of water,frequent urination with burning,burning
+108,stomach pain after dairy,Lactose Intolerance,Lactase Enzymes,Avoid dairy products,stomach pain after dairy,"pain,stomach"
+109,sudden muscle twitching,Electrolyte Imbalance,Magnesium,Stay hydrated,sudden muscle twitching,
+110,feeling heartbeat fast,Panic Attack,Anti anxiety meds,Practice calming techniques,feeling heartbeat fast,
+111,dry throat at night,Mouth Breathing,Saline Spray,Use humidifier,dry throat at night,throat
+112,eye pain while blinking,Eye Infection,Eye Drops,Avoid eye strain,eye pain while blinking,"eye,pain"
+113,frequent burping after meals,Indigestion,Antacids,Eat slowly,frequent burping after meals,
+114,loss of hair in patches,Alopecia,Topical Steroids,Consult dermatologist,loss of hair in patches,
+115,pain under rib cage,Muscle Injury,Pain Relievers,Avoid strenuous activity,pain under rib cage,pain
+116,feeling bloated after small meals,Indigestion,Probiotics,Eat smaller portions,feeling bloated after small meals,
+117,sore gums and bleeding,Gingivitis,Antiseptic Mouthwash,Brush regularly,sore gums and bleeding,
+118,itchy ears inside,Ear Allergy,Antihistamine Drops,Avoid inserting objects,itchy ears inside,
+119,difficulty starting urine,Prostate Issue,Alpha Blockers,Consult urologist,difficulty starting urine,urine
+120,frequent thirst and hunger,Diabetes,Blood Sugar Control,Check glucose levels,frequent thirst and hunger,
+121,tooth pain while chewing,Dental Cavity,Pain Killers,Avoid very hot or cold food,tooth pain while chewing,"pain,tooth"
+122,bleeding gums while brushing,Gingivitis,Antiseptic Mouthwash,Brush gently and regularly,bleeding gums while brushing,
+123,bad breath even after brushing,Oral Infection,Antibacterial Mouthwash,Maintain oral hygiene,bad breath even after brushing,breath
+124,swollen gums with pain,Gum Infection,Antibiotics,Consult dentist,swollen gums with pain,pain
+125,sharp pain in tooth,Tooth Sensitivity,Desensitizing Toothpaste,Avoid cold drinks,sharp pain in tooth,"pain,tooth"
+126,jaw pain while opening mouth,TMJ Disorder,Pain Relievers,Avoid chewing hard foods,jaw pain while opening mouth,"jaw,mouth,pain"
+127,ulcers inside mouth,Mouth Ulcers,Topical Gel,Avoid spicy food,ulcers inside mouth,mouth
+128,white coating on tongue,Oral Thrush,Antifungal Gel,Clean tongue daily,white coating on tongue,
+129,tooth pain with swelling face,Dental Abscess,Antibiotics,Visit dentist immediately,tooth pain with swelling face,"pain,swelling,tooth"
+130,bleeding after tooth extraction,Post Extraction Issue,Antiseptic,Avoid rinsing for 24 hours,bleeding after tooth extraction,tooth
+131,loose tooth in adult,Periodontal Disease,Dental Treatment,Consult dentist,loose tooth in adult,tooth
+132,red patches inside mouth,Oral Inflammation,Topical Ointment,Avoid tobacco and alcohol,red patches inside mouth,"mouth,red"
+133,pain in gums while eating,Gum Inflammation,Antiseptic Gel,Eat soft foods,pain in gums while eating,pain
+134,dry mouth problem,Xerostomia,Saliva Substitutes,Drink water frequently,dry mouth problem,mouth
+135,cracked corner of lips,Angular Cheilitis,Antifungal Cream,Keep lips moisturized,cracked corner of lips,
+136,burning mouth sensation,Burning Mouth Syndrome,Vitamin B Complex,Consult doctor,burning mouth sensation,"burning,mouth"
+137,tooth ache at night,Dental Infection,Pain Killers,Get dental checkup,tooth ache at night,tooth
+138,metallic taste in mouth,Medication Side Effect,Medical Evaluation,Consult doctor,metallic taste in mouth,mouth
+139,food getting stuck in teeth,Gum Disease,Dental Cleaning,Maintain flossing,food getting stuck in teeth,teeth
+140,swollen jaw lymph nodes,Dental Infection,Antibiotics,Consult dentist,swollen jaw lymph nodes,jaw
+141,teeth grinding during sleep,Bruxism,Mouth Guard,Reduce stress,teeth grinding during sleep,"sleep,teeth"
+142,black spots on teeth,Tooth Decay,Dental Cleaning,Visit dentist,black spots on teeth,teeth
+143,pain in wisdom tooth,Wisdom Tooth Infection,Pain Relievers,Dental extraction if needed,pain in wisdom tooth,"pain,tooth"
+144,sore throat with mouth sores,Viral Infection,Pain Relievers,Drink warm fluids,sore throat with mouth sores,"mouth,throat"
+145,difficulty opening mouth fully,Jaw Muscle Spasm,Muscle Relaxants,Apply warm compress,difficulty opening mouth fully,mouth
+146,small red bumps on skin,Heat Rash,Calamine Lotion,Keep skin cool and dry,small red bumps on skin,"red,skin"
+147,itchy red patches on arms,Allergic Dermatitis,Antihistamine Cream,Avoid allergens,itchy red patches on arms,red
+148,white patches on skin,Vitiligo,Topical Steroids,Consult dermatologist,white patches on skin,skin
+149,dark patches on face,Melasma,Sunscreen Cream,Avoid sun exposure,dark patches on face,
+150,boils with pus on skin,Skin Abscess,Antibiotics,Keep area clean,boils with pus on skin,skin
+151,rough dry patches on elbows,Psoriasis,Topical Steroids,Moisturize regularly,rough dry patches on elbows,
+152,itching after bath,Dry Skin,Moisturizers,Use mild soap,itching after bath,itching
+153,small blisters on hands,Contact Dermatitis,Antihistamines,Avoid irritants,small blisters on hands,
+154,painful skin rash with burning,Shingles,Antiviral Drugs,Seek medical care,painful skin rash with burning,"burning,rash,skin"
+155,scaly patches on scalp,Scalp Psoriasis,Medicated Shampoo,Follow scalp treatment,scaly patches on scalp,
+156,itchy circular rash,Ringworm,Antifungal Cream,Keep skin dry,itchy circular rash,rash
+157,skin redness after sun,Sunburn,Aloe Vera Gel,Avoid sun exposure,skin redness after sun,skin
+158,skin peeling between fingers,Eczema,Moisturizing Cream,Apply ointment regularly,skin peeling between fingers,skin
+159,itchy bumps after mosquito bite,Insect Bite,Antihistamine Cream,Avoid scratching,itchy bumps after mosquito bite,
+160,blackheads on nose,Blackheads,Salicylic Acid,Clean face daily,blackheads on nose,nose
+161,painful lumps under skin,Boils,Antibiotics,Consult doctor,painful lumps under skin,skin
+162,excessive facial hair growth,Hormonal Imbalance,Hormone Therapy,Consult doctor,excessive facial hair growth,
+163,yellow crust on skin sores,Impetigo,Topical Antibiotics,Keep area clean,yellow crust on skin sores,skin
+164,skin darkening around neck,Acanthosis Nigricans,Blood Sugar Control,Check for diabetes,skin darkening around neck,"neck,skin"
+165,itching in skin folds,Fungal Infection,Antifungal Powder,Keep area dry,itching in skin folds,"itching,skin"
+166,peeling skin on feet,Athletes Foot,Antifungal Cream,Change socks regularly,peeling skin on feet,skin
+167,sudden skin redness and swelling,Allergic Reaction,Antihistamines,Seek medical help if severe,sudden skin redness and swelling,"skin,swelling"
+168,skin bumps with itching at night,Scabies,Permethrin Cream,Wash clothes in hot water,skin bumps with itching at night,"itching,skin"
+169,thick skin on palms,Calluses,Moisturizing Cream,Use protective gloves,thick skin on palms,skin
+170,skin irritation after shaving,Razor Burn,Soothing Gel,Use clean razor,skin irritation after shaving,skin
+171,ear pain while chewing,Ear Infection,Pain Relievers,Avoid cold air and consult doctor,ear pain while chewing,"ear,pain"
+172,itching inside ear,Ear Allergy,Antihistamine Drops,Do not insert objects in ear,itching inside ear,"ear,itching"
+173,blocked ear feeling,Ear Wax Build Up,Ear Drops,Get ear cleaned by doctor,blocked ear feeling,ear
+174,ringing sound in ear,Tinnitus,Vitamin Supplements,Avoid loud noise,ringing sound in ear,ear
+175,fluid discharge from ear,Ear Infection,Antibiotics,Keep ear dry and consult doctor,fluid discharge from ear,ear
+176,ear pain with fever,Middle Ear Infection,Antibiotics,Seek medical treatment,ear pain with fever,"ear,fever,pain"
+177,reduced hearing in one ear,Hearing Loss,Medical Evaluation,Get hearing test done,reduced hearing in one ear,ear
+178,pain behind ear,Swollen Lymph Nodes,Pain Relievers,Apply warm compress,pain behind ear,"ear,pain"
+179,ear fullness after cold,Eustachian Tube Block,Decongestants,Do steam inhalation,ear fullness after cold,"cold,ear"
+180,crackling sound in ear,Ear Pressure Change,Decongestants,Avoid sudden pressure changes,crackling sound in ear,ear
+181,ear itching with flakes,Ear Dermatitis,Antifungal Drops,Keep ear dry,ear itching with flakes,"ear,itching"
+182,sharp ear pain at night,Ear Infection,Pain Relievers,Consult ENT doctor,sharp ear pain at night,"ear,pain"
+183,ear pain after swimming,Swimmers Ear,Antibiotic Drops,Dry ears after swimming,ear pain after swimming,"ear,pain"
+184,hearing difficulty in noise,Early Hearing Loss,Hearing Test,Avoid loud environments,hearing difficulty in noise,
+185,ear buzzing sound,Tinnitus,Vitamin B Complex,Reduce stress,ear buzzing sound,ear
+186,ear pain while flying,Barotrauma,Decongestants,Chew gum during flight,ear pain while flying,"ear,pain"
+187,bleeding from ear,Ear Injury,Emergency Care,Go to hospital immediately,bleeding from ear,ear
+188,ear pain with jaw movement,TMJ Disorder,Pain Relievers,Avoid hard chewing,ear pain with jaw movement,"ear,jaw,pain"
+189,bad smell from ear,Ear Infection,Antibiotics,Clean ear under doctor guidance,bad smell from ear,ear
+190,ear blockage after bath,Water Trapped in Ear,Ear Drying Drops,Tilt head and dry ear,ear blockage after bath,ear
+191,ear redness and swelling,Outer Ear Infection,Antibiotics,Apply prescribed ointment,ear redness and swelling,"ear,swelling"
+192,constant ear itching,Fungal Ear Infection,Antifungal Drops,Keep ear dry,constant ear itching,"ear,itching"
+193,ear pain with sore throat,ENT Infection,Antibiotics,Treat throat infection,ear pain with sore throat,"ear,pain,throat"
+194,clicking sound in ear,Jaw Joint Problem,Pain Relievers,Do jaw exercises,clicking sound in ear,ear
+195,ear numbness sensation,Nerve Irritation,Vitamin B Complex,Consult doctor,ear numbness sensation,ear
+196,blocked nose on one side,Nasal Congestion,Decongestants,Do steam inhalation,blocked nose on one side,nose
+197,frequent sneezing in morning,Allergic Rhinitis,Antihistamines,Avoid dust exposure,frequent sneezing in morning,
+198,runny nose with itching,Nasal Allergy,Cetirizine,Use saline spray,runny nose with itching,"itching,nose"
+199,nose bleeding frequently,Nosebleed,Saline Spray,Apply pressure and consult doctor,nose bleeding frequently,nose
+200,pain around nose and eyes,Sinusitis,Antibiotics,Steam inhalation helps,pain around nose and eyes,"nose,pain"
+201,thick yellow nasal discharge,Sinus Infection,Antibiotics,Complete medication course,thick yellow nasal discharge,
+202,nose itching and irritation,Allergic Reaction,Antihistamines,Avoid allergens,nose itching and irritation,"itching,nose"
+203,loss of smell due to cold,Common Cold,Decongestants,Rest and fluids,loss of smell due to cold,cold
+204,pain inside nose,Local Infection,Antibiotic Ointment,Do not touch inside nose,pain inside nose,"nose,pain"
+205,nose blockage at night,Nasal Polyps,Medical Evaluation,Consult ENT specialist,nose blockage at night,nose
+206,frequent nose dryness,Dry Nasal Passages,Saline Gel,Use humidifier,frequent nose dryness,nose
+207,nasal congestion after AC,Cold Exposure,Decongestants,Avoid cold air,nasal congestion after ac,
+208,pressure on forehead and nose,Sinus Headache,Pain Relievers,Steam inhalation,pressure on forehead and nose,"nose,pressure"
+209,nose swelling after injury,Nasal Injury,Pain Relievers,Apply cold compress,nose swelling after injury,"nose,swelling"
+210,burning sensation in nose,Allergic Irritation,Saline Spray,Avoid strong smells,burning sensation in nose,"burning,nose"
+211,nose pain with toothache,Maxillary Sinusitis,Antibiotics,Dental and ENT checkup,nose pain with toothache,"nose,pain"
+212,constant sniffing,Nasal Allergy,Antihistamines,Keep room dust free,constant sniffing,
+213,bad smell from nose,Sinus Infection,Antibiotics,Consult ENT doctor,bad smell from nose,nose
+214,nose blockage with snoring,Deviated Septum,Medical Evaluation,Surgical correction if needed,nose blockage with snoring,nose
+215,frequent sneezing after dust,Allergy Trigger,Antihistamines,Wear mask in dusty areas,frequent sneezing after dust,
+216,crusting inside nose,Nasal Dryness,Saline Ointment,Apply nasal moisturizer,crusting inside nose,nose
+217,nose congestion with fever,Upper Respiratory Infection,Paracetamol,Rest and fluids,nose congestion with fever,"fever,nose"
+218,watery nose in cold weather,Cold Sensitivity,Antihistamines,Protect nose from cold,watery nose in cold weather,"cold,nose"
+219,nose pain when touching,Local Inflammation,Topical Antibiotics,Avoid pressing nose,nose pain when touching,"nose,pain"
+220,blocked nose after crying,Nasal Congestion,Saline Drops,Clear nose gently,blocked nose after crying,nose
+221,eye redness with pain,Eye Infection,Antibiotic Eye Drops,Avoid touching eyes,eye redness with pain,"eye,pain"
+222,blurred vision suddenly,Sudden Vision Disturbance,Medical Evaluation,Seek medical help immediately,blurred vision suddenly,vision
+223,itchy eyes with watering,Eye Allergy,Antihistamine Drops,Avoid rubbing eyes,itchy eyes with watering,
+224,eye strain after long screen use,Digital Eye Strain,Eye Drops,Take frequent breaks,eye strain after long screen use,eye
+225,yellow discharge from eyes,Conjunctivitis,Antibiotic Eye Drops,Clean eyes with sterile cloth,yellow discharge from eyes,
+226,eye pain in bright light,Photophobia,Dark Glasses,Avoid bright lights,eye pain in bright light,"eye,pain"
+227,dry eyes with burning,Dry Eye Syndrome,Artificial Tears,Blink frequently and hydrate,dry eyes with burning,burning
+228,swelling around eyes,Eye Inflammation,Cold Compress,Consult doctor if severe,swelling around eyes,swelling
+229,double vision,Vision Disorder,Medical Evaluation,Urgent eye check needed,double vision,vision
+230,foreign body sensation in eye,Eye Irritation,Saline Wash,Rinse eye gently,foreign body sensation in eye,eye
+231,eye twitching frequently,Eye Fatigue,Multivitamins,Reduce screen time,eye twitching frequently,eye
+232,eye heaviness and headache,Eye Strain,Pain Relievers,Rest eyes,eye heaviness and headache,"eye,headache"
+233,red patch in eye,Subconjunctival Hemorrhage,No Medicine,Usually heals on its own,red patch in eye,"eye,red"
+234,night vision difficulty,Night Blindness,Vitamin A Supplements,Improve vitamin intake,night vision difficulty,vision
+235,eye pain with headache,Glaucoma Attack,Medical Emergency,Go to hospital immediately,eye pain with headache,"eye,headache,pain"
+236,white spot on cornea,Corneal Ulcer,Antibiotic Drops,Urgent ophthalmologist visit,white spot on cornea,
+237,itchy eyelids with flakes,Blepharitis,Eyelid Cleaning,Maintain eyelid hygiene,itchy eyelids with flakes,
+238,swollen eyelids in morning,Eye Allergy,Antihistamines,Apply cold compress,swollen eyelids in morning,
+239,flashes of light in vision,Retinal Problem,Emergency Evaluation,Immediate eye check,flashes of light in vision,vision
+240,cloudy vision in elderly,Cataract,Medical Evaluation,Surgery if severe,cloudy vision in elderly,vision
+241,eye dryness after AC,Dry Eyes,Artificial Tears,Avoid direct air flow,eye dryness after ac,eye
+242,eye pain when moving eyes,Optic Neuritis,Medical Evaluation,Urgent consultation required,eye pain when moving eyes,"eye,pain"
+243,watering eyes in wind,Eye Sensitivity,Protective Glasses,Wear sunglasses,watering eyes in wind,
+244,sticky eyes after sleep,Eye Infection,Antibiotic Drops,Clean eyes regularly,sticky eyes after sleep,sleep
+245,black spots floating in vision,Eye Floaters,Medical Evaluation,Consult ophthalmologist,black spots floating in vision,vision
+246,fast heartbeat without exercise,Palpitations,Medical Evaluation,Avoid caffeine and stress,fast heartbeat without exercise,
+247,irregular heartbeat feeling,Arrhythmia,Medical Evaluation,Consult cardiologist,irregular heartbeat feeling,
+248,pressure in chest while walking,Angina,Pain Relievers,Rest and seek medical advice,pressure in chest while walking,"chest,pressure"
+249,shortness of breath on climbing stairs,Heart Weakness,Medical Evaluation,Limit exertion and consult doctor,shortness of breath on climbing stairs,breath
+250,swelling in legs with breathlessness,Heart Failure,Diuretics,Seek medical attention,swelling in legs with breathlessness,swelling
+251,feeling faint suddenly,Low Blood Pressure,ORS,Sit or lie down immediately,feeling faint suddenly,
+252,headache with high bp reading,Hypertension,Antihypertensives,Check BP regularly,headache with high bp reading,"bp,headache"
+253,dizziness after standing up,Postural Hypotension,ORS,Stand up slowly,dizziness after standing up,
+254,nosebleed with high bp,Hypertension,Medical Evaluation,Control blood pressure,nosebleed with high bp,bp
+255,chest tightness during stress,Stress Induced Angina,Medical Evaluation,Practice relaxation techniques,chest tightness during stress,"chest,stress"
+256,frequent urination with fatigue,Diabetes,Blood Sugar Control,Monitor glucose regularly,frequent urination with fatigue,fatigue
+257,slow wound healing in feet,Diabetic Complication,Glucose Control,Daily foot care needed,slow wound healing in feet,
+258,tingling in feet and hands,Diabetic Neuropathy,Vitamin B Complex,Control sugar levels,tingling in feet and hands,
+259,blurred vision with high sugar,Diabetes,Blood Sugar Control,Check sugar levels,blurred vision with high sugar,vision
+260,excessive hunger and sweating,Hypoglycemia,Glucose Intake,Eat something sweet immediately,excessive hunger and sweating,
+261,extreme thirst and dry mouth,High Blood Sugar,Glucose Control,Drink water and test sugar,extreme thirst and dry mouth,mouth
+262,chest pain spreading to left arm,Heart Attack,Emergency Care,Call emergency services,chest pain spreading to left arm,"chest,pain"
+263,breathlessness while lying flat,Heart Failure,Medical Evaluation,Sleep with head elevated,breathlessness while lying flat,
+264,heavy sweating with chest discomfort,Heart Attack Warning,Emergency Care,Go to hospital immediately,heavy sweating with chest discomfort,chest
+265,frequent dizziness and headache,High Blood Pressure,Antihypertensives,Reduce salt intake,frequent dizziness and headache,headache
+266,rapid breathing with high sugar,Diabetic Ketoacidosis,Emergency Care,Immediate hospital treatment,rapid breathing with high sugar,
+267,loss of consciousness in diabetic patient,Severe Hypoglycemia,Emergency Glucose,Seek emergency help,loss of consciousness in diabetic patient,
+268,feeling tired after mild activity,Heart Weakness,Medical Evaluation,Consult cardiologist,feeling tired after mild activity,tired
+269,pain in chest after heavy meal,Acid Reflux vs Heart Issue,Medical Evaluation,Do not ignore chest pain,pain in chest after heavy meal,"chest,pain"
+270,swollen face and legs,Fluid Retention,Diuretics,Check heart and kidney function,swollen face and legs,
+271,frequent night urination,Diabetes or Prostate Issue,Medical Evaluation,Consult doctor,frequent night urination,
+272,irritability and sweating,Low Blood Sugar,Glucose Tablets,Check sugar immediately,irritability and sweating,
+273,headache and blurred vision,Hypertensive Crisis,Emergency Care,Immediate BP control needed,headache and blurred vision,"headache,vision"
+274,weak pulse and cold sweat,Shock,Emergency Care,Call emergency services,weak pulse and cold sweat,"cold,weak"
+275,breathlessness with chest heaviness,Cardiac Problem,Emergency Evaluation,Go to hospital,breathlessness with chest heaviness,chest
+276,shortness of breath while resting,Breathing Difficulty,Medical Evaluation,Seek medical attention,shortness of breath while resting,breath
+277,continuous dry cough,Lung Irritation,Cough Suppressants,Avoid smoke and dust,continuous dry cough,cough
+278,cough with blood in sputum,Lung Infection,Emergency Evaluation,Go to hospital immediately,cough with blood in sputum,cough
+279,wheezing sound while breathing,Asthma Exacerbation,Inhaler,Avoid triggers,wheezing sound while breathing,
+280,breathing difficulty at night,Sleep Apnea,Medical Evaluation,Sleep on side and consult doctor,breathing difficulty at night,
+281,chest tightness with cough,Bronchial Spasm,Inhaler,Use inhaler as prescribed,chest tightness with cough,"chest,cough"
+282,rapid breathing and anxiety,Hyperventilation,Calming Techniques,Slow deep breathing,rapid breathing and anxiety,anxiety
+283,cough with thick green mucus,Chest Infection,Antibiotics,Complete antibiotic course,cough with thick green mucus,cough
+284,breathing pain while coughing,Pleurisy,Pain Relievers,Rest and consult doctor,breathing pain while coughing,pain
+285,frequent breathlessness after mild work,Lung Weakness,Medical Evaluation,Avoid exertion,frequent breathlessness after mild work,
+286,night cough in child,Childhood Asthma,Inhaler,Consult pediatrician,night cough in child,cough
+287,breathlessness with fever,Pneumonia,Antibiotics,Seek medical treatment,breathlessness with fever,fever
+288,difficulty breathing in dusty place,Allergic Asthma,Inhaler,Avoid allergens,difficulty breathing in dusty place,
+289,chest pain while breathing,Costochondritis,Pain Relievers,Apply warm compress,chest pain while breathing,"chest,pain"
+290,whistling noise in chest,Airway Narrowing,Bronchodilators,Use inhaler,whistling noise in chest,chest
+291,breathlessness after climbing few steps,Low Lung Capacity,Medical Evaluation,Pulmonary tests needed,breathlessness after climbing few steps,
+292,cough worsening at night,Post Nasal Drip,Antihistamines,Elevate head while sleeping,cough worsening at night,cough
+293,short breath after long sitting,Poor Lung Circulation,Deep Breathing,Do breathing exercises,short breath after long sitting,breath
+294,feeling unable to take deep breath,Anxiety Related Breathing,Relaxation Therapy,Practice breathing techniques,feeling unable to take deep breath,breath
+295,persistent cough for weeks,Chronic Bronchitis,Medical Evaluation,Avoid smoking,persistent cough for weeks,cough
+296,burning chest sensation while breathing,Airway Inflammation,Anti inflammatory meds,Consult doctor,burning chest sensation while breathing,"burning,chest"
+297,breathing difficulty after smoke exposure,Smoke Inhalation,Medical Evaluation,Get oxygen support if needed,breathing difficulty after smoke exposure,
+298,chest congestion with rattling sound,Chest Infection,Expectorants,Drink warm fluids,chest congestion with rattling sound,chest
+299,short breath during sleep,Sleep Related Breathing Disorder,Medical Evaluation,Sleep study advised,short breath during sleep,"breath,sleep"
+300,breathing stops briefly during sleep,Obstructive Sleep Apnea,CPAP Therapy,Weight management helps,breathing stops briefly during sleep,sleep
+301,lower abdominal pain during periods,Menstrual Cramps,Pain Relievers,Use hot water bag,lower abdominal pain during periods,pain
+302,irregular periods,Hormonal Imbalance,Hormone Therapy,Consult gynecologist,irregular periods,
+303,heavy bleeding during periods,Menorrhagia,Iron Supplements,Medical evaluation required,heavy bleeding during periods,
+304,missed periods,Pregnancy or Hormonal Issue,Pregnancy Test,Consult doctor,missed periods,
+305,painful periods every month,Dysmenorrhea,Pain Relievers,Regular exercise helps,painful periods every month,
+306,white vaginal discharge with itching,Vaginal Infection,Antifungal Tablets,Maintain hygiene,white vaginal discharge with itching,itching
+307,pelvic pain after periods,Endometriosis,Medical Evaluation,Consult gynecologist,pelvic pain after periods,pain
+308,breast pain before periods,Premenstrual Syndrome,Pain Relievers,Wear supportive bra,breast pain before periods,pain
+309,lumps in breast,Breast Lump,Medical Evaluation,Breast exam needed,lumps in breast,
+310,frequent urination during pregnancy,Pregnancy Symptom,No Medicine,Normal but consult doctor,frequent urination during pregnancy,
+311,nausea and vomiting in pregnancy,Morning Sickness,Antiemetics,Eat small frequent meals,nausea and vomiting in pregnancy,
+312,swollen feet in pregnancy,Pregnancy Edema,Leg Elevation,Avoid standing long time,swollen feet in pregnancy,
+313,lower back pain in pregnancy,Pregnancy Strain,Pain Relievers,Use pregnancy pillow,lower back pain in pregnancy,"back,pain"
+314,itching in private parts,Vaginal Infection,Antifungal Cream,Keep area dry,itching in private parts,itching
+315,pain during intercourse,Dyspareunia,Medical Evaluation,Consult gynecologist,pain during intercourse,pain
+316,hot flashes and sweating,Menopause,Hormone Therapy,Wear light clothing,hot flashes and sweating,
+317,mood swings before periods,PMS,Multivitamins,Regular sleep and exercise,mood swings before periods,
+318,delay in periods with stress,Stress Related Amenorrhea,Stress Management,Relaxation needed,delay in periods with stress,stress
+319,lower abdominal pain with fever,Pelvic Infection,Antibiotics,Seek medical care,lower abdominal pain with fever,"fever,pain"
+320,breast milk leakage when not pregnant,Hormonal Disorder,Medical Evaluation,Hormone tests required,breast milk leakage when not pregnant,
+321,pain in lower abdomen after urination,Urinary Infection,Antibiotics,Drink plenty of water,pain in lower abdomen after urination,"abdomen,pain"
+322,spotting between periods,Hormonal Issue,Medical Evaluation,Consult gynecologist,spotting between periods,
+323,itchy rash under breasts,Skin Fungal Infection,Antifungal Powder,Keep area dry,itchy rash under breasts,rash
+324,vaginal dryness,Menopause Related,Moisturizing Gel,Consult doctor,vaginal dryness,
+325,lower back pain with missed periods,Possible Pregnancy,Medical Evaluation,Pregnancy test advised,lower back pain with missed periods,"back,pain"
+326,fever in child with cold,Common Viral Infection,Paracetamol,Keep child hydrated,fever in child with cold,"cold,fever"
+327,child not eating properly,Poor Appetite,Multivitamins,Offer small frequent meals,child not eating properly,
+328,frequent crying with ear pulling,Ear Infection,Antibiotics,Consult pediatrician,frequent crying with ear pulling,ear
+329,diarrhea in toddler,Stomach Infection,ORS,Prevent dehydration,diarrhea in toddler,diarrhea
+330,child coughing at night,Childhood Asthma,Inhaler,Avoid dust exposure,child coughing at night,
+331,skin rashes in baby,Allergic Rash,Calamine Lotion,Keep skin clean and dry,skin rashes in baby,skin
+332,vomiting after feeding,Indigestion in Baby,Antiemetic,Feed slowly,vomiting after feeding,
+333,child tired and pale,Anemia in Child,Iron Supplements,Improve diet,child tired and pale,tired
+334,runny nose and sneezing in child,Common Cold,Cetirizine,Warm fluids help,runny nose and sneezing in child,nose
+335,high fever with chills in child,Bacterial Infection,Antibiotics,Seek medical care,high fever with chills in child,fever
+336,itching in scalp of child,Head Lice,Anti lice Lotion,Wash bedding in hot water,itching in scalp of child,itching
+337,red eyes with discharge in child,Conjunctivitis,Antibiotic Eye Drops,Avoid touching eyes,red eyes with discharge in child,red
+338,stomach pain in school child,Indigestion,Antacids,Avoid junk food,stomach pain in school child,"pain,stomach"
+339,child wheezing while breathing,Bronchiolitis,Medical Evaluation,Hospital care may be needed,child wheezing while breathing,
+340,frequent urination in child,Urinary Infection,Antibiotics,Encourage fluids,frequent urination in child,
+341,delayed growth in child,Growth Delay,Nutritional Supplements,Consult pediatrician,delayed growth in child,
+342,child scratching skin a lot,Allergic Dermatitis,Antihistamines,Identify allergens,child scratching skin a lot,skin
+343,child complaining of headache,Dehydration or Infection,Paracetamol,Give fluids and rest,child complaining of headache,headache
+344,child fainting suddenly,Low Blood Sugar,Emergency Care,Immediate medical attention,child fainting suddenly,
+345,child having seizures,Fever Seizure,Emergency Care,Rush to hospital,child having seizures,
+346,child not sleeping at night,Sleep Disturbance,No Medicine,Maintain sleep routine,child not sleeping at night,
+347,child vomiting with fever,Gastroenteritis,ORS,Prevent dehydration,child vomiting with fever,fever
+348,swollen glands in child neck,Infection,Antibiotics,Consult pediatrician,swollen glands in child neck,neck
+349,child complaining of leg pain,Growing Pains,Pain Relievers,Gentle massage helps,child complaining of leg pain,pain
+350,child refusing to walk,Limb Injury,Medical Evaluation,Check for injury,child refusing to walk,
+351,fall with severe leg pain,Bone Fracture,Emergency Care,Do not move affected area,fall with severe leg pain,pain
+352,twisted ankle while walking,Ankle Sprain,Pain Relievers,Apply ice and rest,twisted ankle while walking,
+353,cut on finger with bleeding,Minor Cut,Antiseptic,Clean and bandage wound,cut on finger with bleeding,
+354,head hit with dizziness,Head Injury,Medical Evaluation,Go to hospital,head hit with dizziness,
+355,road accident with body pain,Trauma Injury,Emergency Care,Call ambulance immediately,road accident with body pain,pain
+356,deep wound with heavy bleeding,Severe Bleeding,Emergency Care,Apply pressure and rush to hospital,deep wound with heavy bleeding,
+357,burn injury from hot water,Scald Burn,Burn Ointment,Cool with running water,burn injury from hot water,
+358,electric shock injury,Electric Injury,Emergency Care,Seek immediate medical help,electric shock injury,
+359,fall from height,Major Trauma,Emergency Care,Do not move patient,fall from height,
+360,knife cut with deep wound,Laceration,Stitches Required,Go to emergency room,knife cut with deep wound,
+361,object stuck in eye,Eye Injury,Emergency Care,Do not rub eye,object stuck in eye,eye
+362,hit on chest with pain,Chest Injury,Medical Evaluation,Check for internal injury,hit on chest with pain,"chest,pain"
+363,twisted knee with swelling,Knee Injury,Pain Relievers,Apply ice and rest,twisted knee with swelling,"knee,swelling"
+364,hit on head and vomiting,Concussion,Emergency Care,Immediate medical attention,hit on head and vomiting,
+365,chemical spill on skin,Chemical Burn,Emergency Care,Rinse with plenty of water,chemical spill on skin,skin
+366,dog bite wound,Animal Bite,Anti Rabies Vaccine,Wash and go to hospital,dog bite wound,
+367,insect sting with swelling,Allergic Reaction,Antihistamines,Seek help if severe,insect sting with swelling,swelling
+368,broken tooth after fall,Dental Trauma,Emergency Dental Care,Visit dentist immediately,broken tooth after fall,tooth
+369,foreign object in ear,Foreign Body Ear,Medical Removal,Do not insert tools,foreign object in ear,ear
+370,slipped and back pain,Spinal Injury,Medical Evaluation,Avoid movement,slipped and back pain,"back,pain"
+371,glass cut on foot,Deep Cut,Antiseptic and Stitches,Clean and consult doctor,glass cut on foot,
+372,hit by heavy object,Crush Injury,Emergency Care,Rush to hospital,hit by heavy object,
+373,smoke inhalation in fire,Smoke Inhalation,Emergency Oxygen,Seek urgent medical care,smoke inhalation in fire,
+374,bleeding from nose after accident,Facial Injury,Medical Evaluation,Apply pressure and go to hospital,bleeding from nose after accident,nose
+375,child swallowed object,Foreign Body Ingestion,Emergency Care,Immediate hospital visit,child swallowed object,
+376,stomach pain after meals,Indigestion,Antacids,Eat slowly and avoid spicy food,stomach pain after meals,"pain,stomach"
+377,burning pain in stomach,Acidity,Omeprazole,Avoid oily and fried food,burning pain in stomach,"burning,pain,stomach"
+378,stomach pain with vomiting,Gastritis,Antiemetics,Take light food and rest,stomach pain with vomiting,"pain,stomach"
+379,loose motions after eating outside,Food Poisoning,ORS,Stay hydrated,loose motions after eating outside,
+380,stomach cramps with gas,Gas Trouble,Simethicone,Avoid carbonated drinks,stomach cramps with gas,"cramps,gas,stomach"
+381,feeling full quickly while eating,Indigestion,Probiotics,Eat small frequent meals,feeling full quickly while eating,
+382,upper stomach pain with nausea,Peptic Ulcer,Antacids,Avoid alcohol and spicy food,upper stomach pain with nausea,"pain,stomach"
+383,stomach pain with black stools,Gastrointestinal Bleeding,Emergency Care,Go to hospital immediately,stomach pain with black stools,"pain,stomach"
+384,stomach bloating after every meal,Bloating,Probiotics,Avoid junk food,stomach bloating after every meal,stomach
+385,pain on empty stomach,Acid Ulcer,Antacids,Do not skip meals,pain on empty stomach,"pain,stomach"
+386,stomach pain with fever,Stomach Infection,Antibiotics,Consult doctor,stomach pain with fever,"fever,pain,stomach"
+387,frequent loose stools,Irritable Bowel Syndrome,Antispasmodics,Avoid trigger foods,frequent loose stools,
+388,stomach pain relieved after passing gas,Gas Pain,Simethicone,Walk after meals,stomach pain relieved after passing gas,"gas,pain,stomach"
+389,abdominal pain with constipation,Constipation,Isabgol,Increase fiber intake,abdominal pain with constipation,pain
+390,feeling nauseous in morning,Acidity or Pregnancy,Medical Evaluation,Consult doctor if persists,feeling nauseous in morning,
+391,stomach pain after dairy food,Lactose Intolerance,Lactase Tablets,Avoid milk products,stomach pain after dairy food,"pain,stomach"
+392,frequent stomach upset,Weak Digestion,Probiotics,Improve diet habits,frequent stomach upset,stomach
+393,stomach pain with vomiting blood,Severe Gastric Bleed,Emergency Care,Immediate hospital visit,stomach pain with vomiting blood,"pain,stomach"
+394,acid coming into mouth,GERD,Omeprazole,Do not lie down after meals,acid coming into mouth,"acid,mouth"
+395,stomach pain with weight loss,Serious Digestive Disorder,Medical Evaluation,Consult gastroenterologist,stomach pain with weight loss,"pain,stomach,weight"
+396,frequent stomach noises,Gas Trouble,Simethicone,Avoid carbonated drinks,frequent stomach noises,stomach
+397,stomach tightness after stress,Stress Induced Gastritis,Antacids,Manage stress,stomach tightness after stress,"stomach,stress"
+398,stomach pain on right side,Appendicitis,Emergency Surgery,Go to hospital immediately,stomach pain on right side,"pain,stomach"
+399,stomach pain with yellow eyes,Liver Disorder,Medical Evaluation,Liver function test needed,stomach pain with yellow eyes,"pain,stomach"
+400,abdominal swelling with pain,Fluid in Abdomen,Medical Evaluation,Consult doctor,abdominal swelling with pain,"pain,swelling"
+401,stomach pain after spicy food,Acid Reflux,Antacids,Avoid spicy meals,stomach pain after spicy food,"pain,stomach"
+402,frequent heartburn,GERD,Proton Pump Inhibitors,Avoid late night eating,frequent heartburn,
+403,stomach pain with diarrhea and fever,Intestinal Infection,Antibiotics,Seek medical care,stomach pain with diarrhea and fever,"diarrhea,fever,pain,stomach"
+404,stomach pain after alcohol intake,Gastritis,Antacids,Avoid alcohol,stomach pain after alcohol intake,"pain,stomach"
+405,sharp stomach pain suddenly,Acute Abdominal Pain,Emergency Evaluation,Immediate hospital visit,sharp stomach pain suddenly,"pain,stomach"
+406,frequent dizziness and imbalance,Vertigo,Antivertigo Medicines,Avoid sudden head movement,frequent dizziness and imbalance,
+407,numbness in one side of body,Stroke Warning,Emergency Care,Go to hospital immediately,numbness in one side of body,
+408,frequent headaches with nausea,Migraine,Sumatriptan,Avoid bright lights,frequent headaches with nausea,
+409,tingling in hands and feet,Nerve Damage,Vitamin B Complex,Control blood sugar,tingling in hands and feet,
+410,loss of balance while walking,Nervous System Disorder,Medical Evaluation,Neurology check required,loss of balance while walking,
+411,hand tremors while resting,Tremor Disorder,Medical Evaluation,Avoid caffeine,hand tremors while resting,
+412,confusion and memory loss,Neurological Disorder,Medical Evaluation,Brain tests needed,confusion and memory loss,
+413,weakness in arms and legs,Neuromuscular Disorder,Medical Evaluation,Physiotherapy may help,weakness in arms and legs,
+414,face drooping on one side,Stroke,Emergency Care,Immediate hospital visit,face drooping on one side,
+415,slurred speech suddenly,Stroke,Emergency Care,Call ambulance,slurred speech suddenly,
+416,frequent fainting episodes,Syncope,Medical Evaluation,Heart and brain tests,frequent fainting episodes,
+417,severe headache with vomiting,Brain Infection,Emergency Care,Urgent treatment required,severe headache with vomiting,headache
+418,pain behind eyes with headache,Sinus or Migraine,Pain Relievers,Steam inhalation helps,pain behind eyes with headache,"headache,pain"
+419,loss of coordination,Brain Disorder,Medical Evaluation,MRI may be needed,loss of coordination,
+420,jerking movements of body,Seizure Disorder,Antiepileptic Drugs,Consult neurologist,jerking movements of body,
+421,tingling in face,Nerve Irritation,Vitamin B Complex,Avoid stress,tingling in face,
+422,difficulty speaking clearly,Speech Disorder,Medical Evaluation,Speech therapy advised,difficulty speaking clearly,
+423,blurred vision with headache,Brain Pressure,Medical Evaluation,Immediate scan required,blurred vision with headache,"headache,vision"
+424,weak grip strength,Nerve Compression,Medical Evaluation,Physiotherapy needed,weak grip strength,weak
+425,frequent forgetfulness,Memory Disorder,Medical Evaluation,Cognitive tests required,frequent forgetfulness,
+426,pain shooting down leg,Sciatica,Pain Relievers,Avoid heavy lifting,pain shooting down leg,pain
+427,neck pain with arm numbness,Cervical Nerve Compression,Pain Relievers,Neck exercises helpful,neck pain with arm numbness,"neck,pain"
+428,loss of consciousness briefly,Blackout,Medical Evaluation,Heart and brain check,loss of consciousness briefly,
+429,facial muscle twitching,Nerve Spasm,Vitamin Supplements,Reduce stress,facial muscle twitching,
+430,head injury with confusion,Concussion,Emergency Care,Hospital observation needed,head injury with confusion,
+431,burning while urinating,Urinary Tract Infection,Antibiotics,Drink plenty of water,burning while urinating,burning
+432,blood in urine,Hematuria,Medical Evaluation,Urgent urine tests,blood in urine,urine
+433,frequent urination at night,Kidney or Diabetes Issue,Medical Evaluation,Check sugar and kidneys,frequent urination at night,
+434,lower back pain near kidneys,Kidney Stone,Pain Relievers,Drink more fluids,lower back pain near kidneys,"back,pain"
+435,cloudy urine with odor,Urinary Infection,Antibiotics,Complete medication,cloudy urine with odor,urine
+436,swelling around eyes,Fluid Retention,Kidney Disorder Treatment,Consult nephrologist,swelling around eyes,swelling
+437,foamy urine,Protein in Urine,Medical Evaluation,Kidney function test,foamy urine,urine
+438,inability to pass urine,Urinary Retention,Emergency Care,Catheter may be needed,inability to pass urine,urine
+439,pain while urinating with fever,Severe UTI,Antibiotics,Hospital treatment,pain while urinating with fever,"fever,pain"
+440,frequent urge to urinate,Overactive Bladder,Bladder Relaxants,Avoid caffeine,frequent urge to urinate,
+441,sharp back pain radiating to groin,Kidney Stone,Pain Relievers,Imaging needed,sharp back pain radiating to groin,"back,pain"
+442,reduced urine output,Kidney Failure,Emergency Care,Immediate medical help,reduced urine output,urine
+443,swelling in feet and face,Nephrotic Syndrome,Medical Evaluation,Kidney specialist needed,swelling in feet and face,swelling
+444,itching with kidney problem,Chronic Kidney Disease,Medical Management,Dialysis if severe,itching with kidney problem,itching
+445,urine leakage,Urinary Incontinence,Bladder Training,Pelvic exercises help,urine leakage,urine
+446,burning and itching in urine passage,Urethritis,Antibiotics,Maintain hygiene,burning and itching in urine passage,"burning,itching,urine"
+447,back pain with blood in urine,Kidney Stone,Medical Evaluation,Ultrasound needed,back pain with blood in urine,"back,pain,urine"
+448,frequent urinary infections,Recurrent UTI,Preventive Antibiotics,Drink more water,frequent urinary infections,
+449,difficulty starting urine,Prostate Enlargement,Alpha Blockers,Urology consult,difficulty starting urine,urine
+450,smelly urine,Urinary Infection,Antibiotics,Hydration important,smelly urine,urine
+451,abdominal pain with urine issues,Urinary Tract Disorder,Medical Evaluation,Imaging advised,abdominal pain with urine issues,"pain,urine"
+452,pain after urination,Bladder Infection,Antibiotics,Complete course,pain after urination,pain
+453,urine retention after surgery,Post Surgical Complication,Catheterization,Doctor monitoring,urine retention after surgery,urine
+454,fever with kidney pain,Kidney Infection,Antibiotics,Hospital care required,fever with kidney pain,"fever,pain"
+455,swelling with high bp,Kidney Related Hypertension,Antihypertensives,Kidney tests needed,swelling with high bp,"bp,swelling"
+456,constant worrying thoughts,Anxiety Disorder,Anti anxiety meds,Practice relaxation,constant worrying thoughts,
+457,feeling sad most of the day,Depression,Antidepressants,Counseling helpful,feeling sad most of the day,
+458,panic attacks with breathlessness,Panic Disorder,Anti anxiety meds,Breathing exercises,panic attacks with breathlessness,
+459,lack of interest in activities,Depression,Medical Evaluation,Psychiatric consult,lack of interest in activities,
+460,trouble sleeping every night,Chronic Insomnia,Sleep Aids,Maintain sleep routine,trouble sleeping every night,
+461,feeling hopeless and tired,Depressive Disorder,Antidepressants,Therapy advised,feeling hopeless and tired,tired
+462,irritability and anger issues,Stress Disorder,Stress Management,Counseling helpful,irritability and anger issues,
+463,fear in social situations,Social Anxiety,Anti anxiety meds,Gradual exposure therapy,fear in social situations,
+464,poor concentration and memory,Stress Related Cognitive Issue,Medical Evaluation,Reduce workload,poor concentration and memory,
+465,overthinking and restlessness,Generalized Anxiety Disorder,Anti anxiety meds,Meditation helps,overthinking and restlessness,
+466,feeling worthless,Depression,Emergency Evaluation,Seek mental health support,feeling worthless,
+467,sudden mood changes,Bipolar Disorder,Medical Evaluation,Psychiatric treatment,sudden mood changes,
+468,nightmares and fear,PTSD,Trauma Therapy,Counseling required,nightmares and fear,
+469,loss of appetite due to stress,Stress Disorder,Multivitamins,Regular meals needed,loss of appetite due to stress,stress
+470,excessive fear of illness,Health Anxiety,Behavioral Therapy,Limit symptom searching,excessive fear of illness,
+471,feeling detached from reality,Dissociative Disorder,Medical Evaluation,Psychiatric consult,feeling detached from reality,
+472,frequent crying spells,Emotional Distress,Counseling,Talk to support person,frequent crying spells,
+473,unable to relax,Chronic Stress,Stress Reduction,Yoga and therapy,unable to relax,
+474,panic feeling in crowded places,Agoraphobia,Anti anxiety meds,Gradual exposure,panic feeling in crowded places,
+475,loss of motivation,Depression,Medical Evaluation,Professional counseling,loss of motivation,
+476,thinking about self harm,Mental Health Crisis,Emergency Care,Immediate psychiatric help,thinking about self harm,
+477,constant fear and tension,Anxiety Disorder,Anti anxiety meds,Therapy recommended,constant fear and tension,
+478,feeling empty inside,Emotional Disorder,Medical Evaluation,Psychotherapy needed,feeling empty inside,
+479,mental exhaustion,Burnout Syndrome,Rest and Counseling,Reduce workload,mental exhaustion,
+480,loss of sleep due to stress,Stress Induced Insomnia,Sleep Therapy,Relaxation techniques,loss of sleep due to stress,"sleep,stress"
+481,knee pain while walking,Osteoarthritis,Pain Relievers,Weight control helps,knee pain while walking,"knee,pain"
+482,shoulder pain while lifting arm,Rotator Cuff Injury,Pain Relievers,Physiotherapy needed,shoulder pain while lifting arm,pain
+483,stiff joints in morning,Arthritis,Pain Relievers,Regular exercises help,stiff joints in morning,
+484,back pain after lifting weight,Muscle Strain,Pain Relievers,Avoid heavy work,back pain after lifting weight,"back,pain,weight"
+485,neck pain after long phone use,Text Neck Syndrome,Pain Relievers,Posture correction,neck pain after long phone use,"neck,pain"
+486,joint swelling and redness,Joint Inflammation,Anti inflammatory meds,Rest joint,joint swelling and redness,"joint,swelling"
+487,hip pain while walking,Hip Arthritis,Pain Relievers,Physiotherapy helps,hip pain while walking,pain
+488,cracking sounds in joints,Joint Degeneration,Medical Evaluation,Exercise advised,cracking sounds in joints,
+489,heel pain in morning,Plantar Fasciitis,Pain Relievers,Foot stretches helpful,heel pain in morning,pain
+490,painful wrist movement,Tendonitis,Pain Relievers,Rest wrist,painful wrist movement,
+491,back stiffness in young adult,Ankylosing Spondylitis,Medical Evaluation,Physiotherapy required,back stiffness in young adult,back
+492,joint pain after fever,Post Viral Arthritis,Pain Relievers,Rest and fluids,joint pain after fever,"fever,joint,pain"
+493,knee swelling after fall,Joint Injury,Medical Evaluation,X-ray may be needed,knee swelling after fall,"knee,swelling"
+494,shoulder stiffness,Frozen Shoulder,Physiotherapy,Regular exercises needed,shoulder stiffness,
+495,pain in fingers joints,Rheumatoid Arthritis,Anti inflammatory meds,Consult rheumatologist,pain in fingers joints,pain
+496,back pain with tingling legs,Spinal Nerve Compression,Medical Evaluation,MRI advised,back pain with tingling legs,"back,pain"
+497,joint pain in cold weather,Arthritis Flare,Pain Relievers,Keep joints warm,joint pain in cold weather,"cold,joint,pain"
+498,foot pain while standing long,Foot Strain,Pain Relievers,Use cushioned footwear,foot pain while standing long,pain
+499,swollen painful joints,Gout Attack,Pain Relievers,Avoid high protein food,swollen painful joints,
+500,limited joint movement,Joint Contracture,Physiotherapy,Regular stretching,limited joint movement,joint
+501,pain near collar bone,Muscle Injury,Pain Relievers,Rest affected area,pain near collar bone,pain
+502,elbow pain while gripping,Tennis Elbow,Pain Relievers,Avoid repetitive strain,elbow pain while gripping,pain
+503,back pain with posture issue,Postural Back Pain,Physiotherapy,Correct sitting posture,back pain with posture issue,"back,pain"
+504,joint pain with fever,Infectious Arthritis,Emergency Care,Immediate treatment needed,joint pain with fever,"fever,joint,pain"
+505,hip pain after long sitting,Hip Joint Stiffness,Exercises,Frequent movement helps,hip pain after long sitting,pain
