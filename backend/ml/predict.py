@@ -1,13 +1,11 @@
 import os
 import pandas as pd
 import re
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(BASE_DIR, "medical_tagged.csv"))
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 # ---------------- TEXT CLEANING ----------------
