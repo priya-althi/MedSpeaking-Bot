@@ -365,37 +365,27 @@ def get_medical_response(user_text):
 
     user_words = set(user_text.split())
 
-    scores = []
-    for i, row in df.iterrows():
+    best_score = 0
+    best_row = None
+
+    for _, row in df.iterrows():
         tags = set(str(row["symptom_tags"]).split(","))
-        scores.append(len(tags & user_words))
+        score = len(tags & user_words)
 
-    df["match_score"] = scores
-    max_score = df["match_score"].max()
+        if score > best_score:
+            best_score = score
+            best_row = row
 
-    # If insufficient match → ask for more detail
-    if max_score <= 1:
+    # If no good match
+    if best_score <= 1:
         return {
             "status": "clarification",
-            "message": "Your symptoms are not clear. Could you please explain your problem in more detail?"
+            "message": "Please explain your symptoms more clearly."
         }
-
-    top_matches = df[df["match_score"] == max_score]
-
-    # If multiple matches → use semantic similarity
-    if len(top_matches) > 1:
-        texts = top_matches["Symptoms/Question"].tolist()
-        vectors = model.encode(texts)
-        user_vec = model.encode([user_text])
-        sims = cosine_similarity(user_vec, vectors)
-        idx = sims.argmax()
-        row = top_matches.iloc[idx]
-    else:
-        row = top_matches.iloc[0]
 
     return {
         "status": "final",
-        "disease": row["Disease Prediction"],
-        "medicine": row["Recommended Medicines"],
-        "advice": row["Advice"]
+        "disease": best_row["Disease Prediction"],
+        "medicine": best_row["Recommended Medicines"],
+        "advice": best_row["Advice"]
     }
